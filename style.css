@@ -1,9 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    font-family: "alice";
+    font-size: 16px;
+
+}
+
 body {
     background-image: url(assets/bg.jpg);
     background-size: cover;
 }
 
 #page {
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #F0E8C2;
     width: 800px;
     padding: 24px;
+    margin: 48px auto;
+}
+
+main, ul {
+    margin: 24px;
+}
+
+h1 {
+    line-height: 140%;
+    font-size: 40px;
+    margin-bottom: 4px;
+}
+
+main p + p {
+    margin-top: 12px;
+}
+ h2 {
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 4px;
+ }
+
+h2, p, ul {
+    line-height: 150%;
 }
