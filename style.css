@@ -46,3 +46,15 @@ main p + p {
 h2, p, ul {
     line-height: 150%;
 }
+
+footer {
+    text-align: center;
+    margin-top: 28px 48px auto;
+    color: #F0E8C2;
+    padding-bottom: 48px;
+    
+}
+
+footer img {
+    vertical-align: middle;
+}
